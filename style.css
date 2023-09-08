@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    display: flex;
+}
+
+.nav-left,
+.nav-right {
+    flex: 1;
+    margin: 0 8px 0 25px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.navbox {
+    flex: 1;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.navbox a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbox a:hover {
+    background-color: gray;
+
+}
+
+
+.nav-right {
+    display: flex;
+    margin-right: 5px;
+    justify-content: flex-end;
+}
+
+.navsmallbox {
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 27px;
+}
+
+/* nav right side hover  */
+.navsmallbox a:hover {
+    opacity: 0.5;
+}
+
+.locationbox {
+    width: 102px;
+    height: 69px;
+    margin-right: 10px;
+}
+
+.navsmallbox a {
+    color: #fff;
+    text-decoration: none;
+    font-family: serif;
+
+}
+
+.locationbox {
+    margin-top: 20px;
+}
+
+/* Selection box attributes */
+.locationbox select {
+    border: none;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+/* location icon */
+.locationbox img {
+    width: 38px;
+    height: 25px;
+}
+
+.triumphBackground {
+    width: 100%;
+    height: 900px;
+    background-image: url(./images/background.jpeg);
+
+}
+
+.triumphBackground i {
+    font-size: 30px;
+    color: grey;
+    margin-top: 71px;
+    margin-left: 42px;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.twobuttons {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 450px;
+    margin-left: 44px;
+    justify-items: center;
+}
+
+.twobuttons .button1,
+.button2 {
+    width: 120px;
+    height: 52px;
+    color: #fff;
+    padding-top: 16px;
+    padding-left: 16px;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.button1 {
+    background-color: red;
+}
+
+.button2 {
+    background-color: black;
+}
+
+.homebarbelow {
+    height: 80px;
+    display: flex;
+    background-color: #505050;
+    align-items: center;
+
+}
+
+.bars {
+    flex: 1;
+    border-right: 3px solid white;
+    padding-left: 186px;
+    font-size: 24px;
+    color: #aeaaaa;
+
+    &:hover {
+        color: #fff;
+    }
+
+}
+
+.spangap {
+    padding-left: 10px;
+}
+
+.ride {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+
+ .container{
+    width: 100%;
+    height: 300px;
+
+ }
+
+ .container ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ }
+
+ .container h1{
+    font-size: 25px;
+    &:hover{opacity: 0.5;}
+ }
+ 
+ .container p{
+    font-size: 16px;
+    &:hover{opacity: 0.5;}
+ }
+
+ .container h2{
+    font-size: 16px;
+    &:hover{opacity: 0.5;}
+ }
+
+ .container img{
+    position: relative;
+    &:hover{transform: scale(1.02);
+    overflow: hidden;}
+ }
+ .config{
+    margin-top: 200px;
+    position: relative;
+
+ }
+
+ .configtext{
+position: absolute;
+top: 50%;
+left: 33%;
+color: white;
+align-items: center;
+letter-spacing: 2px;
+
+ }
+
+ .confignow{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 240px;
+    height: 55px;
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 93px;
+    margin-top: 13px;
+    &:hover{
+        background-color: darkred;
+           }
+ }
+
+ .guinnes{
+    width: 100%;
+    height: 529px;
+    display: flex;
+    margin-top: 150px;
+ }
+
+ .guinnesimage{
+    width: 941px;
+    height: 529px;
+    background-image: url(./images/guinnes.avif);
+    background-size: cover;
+
+ }
+
+ .guinnesstext{
+    flex: 1;
+    margin-top: 47px;
+    padding-left: 40px;
+ }
+
+ .discovermore{
+    margin-top: 40px;
+    width: 158px;
+    height: 52px;
+    background-color:#cd192d;
+    text-align: center;
+    padding-top: 16px;
+    color: #fff;
+    font-family:DIN2014-Demi;
+    font-size: 16px;
+
+ }
+ .guinnesstext p{
+    font-size: 18px;
+    letter-spacing: 1px;
+ }
+
+ .guinnesstext h3{
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.garage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+ .gtext{
+    width:500px;
+    height: 495px; 
+ }
+
+ .gtext p{
+    margin-top: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+ }
+ .garage .visit{
+    background-color: #000;
+    color: #fff;
+    width: 183px;
+    height: 51px;
+    text-align: center;
+    padding-top: 14px;
+ }
+
+.last{
+    width: 100%;
+    height: 658px;
+    border-bottom: 1px solid black;
+}
+
+.last{
+    margin-top: 200px;
+}
+
+.last h3{
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.last p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: -15px;
+}
+
+.last .explore{
+    width: 158px;
+    height: 52px;
+    background-color:#cd192d;
+    text-align: center;
+    padding-top: 16px;
+    color: #fff;
+    font-family:monospace;
+    font-size: 16px;
+    margin-top: 30px;
+    &:hover{
+        background-color: darkred;
+    }
+}
+
+.last ul{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.footer{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    margin-top: 130px;
+
+}
+
+.ftr{
+    flex: 1;
+}
+
+
+.ftr ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.ftr li{
+    font-size: 17px;
+    padding-top: 10px;
+    color: #63656a;
+}
+
+.media{
+    width: 1415px;
+    height: 40px;
+    margin-left: 49px;
+    border-bottom: 3px solid black;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+  
+.finalfooter{
+    display: flex;
+    width: 1415px;
+    height: 75px;
+    margin-left: 49px;
+    align-items: center;
+    
+}
+
+.finalfooter p{
+    margin-left: 946px;
+}
+
+.finalfooter ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.finalfooter li{
+    margin-right: 30px; 
+}
